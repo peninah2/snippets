@@ -1,0 +1,32 @@
+/*
+ * Featherlight instructions
+ */
+
+1. Enqueue js
+2. Button include: data-featherlight="#xxx-show"
+3. Lightbox include: class of featherlight (on homebuilders worked better without the class, but set to display none)
+					 id="xxx-show"
+
+4. More directions: https://github.com/noelboss/featherlight/#installation			 
+					 
+
+// add_action( 'wp_enqueue_scripts', 'hct_enqueue_featherlight' );
+function hct_enqueue_featherlight() {
+
+	wp_enqueue_style(
+		'featherlight-styles',
+		get_stylesheet_directory_uri() . '/lib/featherlight/featherlight.css'
+		array(),
+		CHILD_THEME_VERSION
+	);	
+	
+
+	wp_enqueue_script(
+		'featherlight',
+		get_stylesheet_directory_uri() . '/lib/featherlight/featherlight.min.js',
+		array( 'jquery' ),
+		CHILD_THEME_VERSION,
+		true
+	);
+
+}
