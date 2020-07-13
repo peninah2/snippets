@@ -1,6 +1,6 @@
 
 Numbers 1,2,3,4...
-<?php $i++; echo $i; ?>
+<?php $i=0; $$i++; echo $i; ?>
 
 On/off
-<?php echo ($xyz++%2); ?> 
+<?php $xyz=0; echo ($xyz++%2); ?> 
