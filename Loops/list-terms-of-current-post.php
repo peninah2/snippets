@@ -1,8 +1,13 @@
 <?php
 
-// Quick & easy
-$term_obj_list = get_the_terms( $post->ID, 'taxonomy' );
-$terms_string = join(', ', wp_list_pluck($term_obj_list, 'name'));
+$terms = '';
+
+$post_taxonomy = get_the_terms( $post->ID, 'taxonomy' );
+if ( ! empty( $post_locations ) && ! is_wp_error( $post_taxonomy ) ) {
+    $terms = join(', ', wp_list_pluck($post_taxonomy, 'name'));
+}
+
+echo $terms;
 
 
 
