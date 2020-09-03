@@ -1,5 +1,10 @@
 <?php
 
+// Gets linked list with comma separator
+$terms = get_the_term_list( $post->ID, 'taxonomy-slug', '', ', ' );
+
+
+// Gets just the name, with comma separator
 $terms = '';
 
 $post_taxonomy = get_the_terms( $post->ID, 'taxonomy' );
