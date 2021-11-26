@@ -1,0 +1,44 @@
+
+/* editor.js */
+wp.blocks.registerBlockStyle( 'core/media-text', [ 
+
+	{
+		name: 'media-flush-edge',
+		label: 'Img flush with edge',
+	},	
+
+]);		
+
+
+/* CSS */
+@media only screen and (min-width: 1280px) {
+	
+	/* Media-text block 
+	 * Style to make images flush with edge
+	 * -------------------------------------*/
+
+	.wp-block-media-text.is-style-media-flush-edge .wp-block-media-text__media img {
+		margin-left: calc(100% - 50vw);
+		width: 50vw;
+	}
+
+	.wp-block-media-text.is-style-media-flush-edge.has-media-on-the-right .wp-block-media-text__media img {
+		margin-right: calc(100% - 50vw);
+		margin-left: auto;
+	}	
+	
+	.wp-block-media-text.is-style-media-flush-edge .wp-block-media-text__content > * {
+		max-width: 450px;
+	}
+
+}
+
+@media only screen and (min-width: 1921px) {
+	
+	.wp-block-media-text.is-style-media-flush-edge .wp-block-media-text__media img,
+	.wp-block-media-text.is-style-media-flush-edge.has-media-on-the-right .wp-block-media-text__media img {
+		margin: auto;
+		width: auto;
+	}
+	
+}
