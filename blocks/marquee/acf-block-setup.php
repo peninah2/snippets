@@ -14,6 +14,7 @@
 
 
 
+
 // Create blocks
 function hct_register_custom_blocks() {
 	
@@ -33,6 +34,10 @@ function hct_register_custom_blocks() {
 }
 add_action('acf/init', 'hct_register_custom_blocks' );
 
+/* --------------------------------------------------------------------------
+ * Marquee
+ * https://github.com/aamirafridi/jQuery.Marquee
+ * --------------------------------------------------------------------------*/
 
 /*
  * Only load Marquee scripts if marquee block is present
@@ -67,7 +72,7 @@ function hct_marquee_run() {
 					
 					duplicated: true,
 					delayBeforeStart: 0,
-					duration: 10000,
+					speed: 300,
 					gap: 20,
 					startVisible: true,
 					pauseOnHover: true,
