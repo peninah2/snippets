@@ -25,7 +25,7 @@ $img	= get_field( 'image' );
 	?>
 </div>
 <div aria-hidden="true" class="wp-block-spacer spacer-small-height"></div>
-<h4 class="has-text-color has-blue-dk-color all-caps"><strong><?php echo $name; ?></strong></h4>
+<h4 class="has-text-color has-XXX-color"><strong><?php echo $name; ?></strong></h4>
 <p style="margin-bottom: 0;">
 	<?php echo $role ?> 
 	<?php if ($bio) echo ' &nbsp; &middot; &nbsp; <a data-featherlight="#' . $slug . '-show">Bio</a>'; ?>
@@ -39,7 +39,7 @@ $img	= get_field( 'image' );
 			}
 			?>
 		</figure>
-		<h4 class="has-text-color has-blue-dk-color all-caps"><strong><?php echo $name; ?></strong></h4>
+		<h4 class="has-text-color has-XXX-color"><strong><?php echo $name; ?></strong></h4>
 		<p><?php echo $role ?></p>
 		<div class="has-text-align-left"><?php echo $bio; ?></div>			
 	</div>
