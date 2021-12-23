@@ -1,0 +1,17 @@
+/* Tabbed Content Block */
+button.tablinks {
+    background: #fafafa;
+    font-weight: bold;
+}
+
+button.tablinks.active {
+    background: #ddd;
+}
+
+button.tablinks:hover {
+	background: #ddd;
+}
+
+.tabcontent {
+    display: none;
+}
