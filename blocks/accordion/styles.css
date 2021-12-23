@@ -1,0 +1,57 @@
+
+/* Accessible Accordion Block */
+
+.accordion-title button {
+    background: none;
+    border: 0;
+    padding: 25px 0 17px;
+    border-bottom: 2px solid;
+    width: 100%;
+    text-align: left;
+	font-size: inherit;
+	-webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+}
+
+.accordion-title button:hover,
+.accordion-title button:focus {
+	box-shadow: 0 0;
+	color: #000;
+} 
+
+.accordion-title button:hover:after,
+.accordion-title button:focus:after {
+	color: #75ccc2;
+}
+
+
+.accordion-title button:after {
+    content: '+';
+    float: right;
+	font-size: 3rem;
+	font-weight: normal;
+    line-height: .85;
+}
+
+.accordion-title button[aria-expanded="true"]:after {
+    content: '-';
+}
+
+.accordion-button:focus,
+.accordion-panel:focus {
+	outline: none;
+}
+
+.hidden.accordion-panel {
+	opacity: 0;
+    height: 0;
+    padding: 0;
+	overflow: hidden;
+}
+
+.accordion-panel {
+    padding: 3em 0;
+	-webkit-transition: .2s all linear;
+	transition: .2s all linear;
+}
