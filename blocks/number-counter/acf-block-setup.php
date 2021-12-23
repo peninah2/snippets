@@ -6,8 +6,8 @@
 		'name'				=> 'number-counter',
 		'title'				=> __( 'Number counter', 'hct-theme-blocks' ),
 		'render_template'	=> 'blocks/block-number-counter.php',
-		'category'			=> 'theme',
-		'icon'				=> '',
+		'category'			=> 'hct-theme',
+		'icon'				=> 'editor-ol-rtl',
 		'mode'				=> 'auto',
 		'keywords'			=> array( 'number', 'counter', 'hct-theme-blocks' ),
 		'supports'		=> [

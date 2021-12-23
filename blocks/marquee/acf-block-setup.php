@@ -25,7 +25,7 @@ function hct_register_custom_blocks() {
 		'name'				=> 'marquee',
 		'title'				=> __( 'Marquee', 'hct-theme-blocks' ),
 		'render_template'	=> 'blocks/block-marquee.php',
-		'category'			=> 'formatting',
+		'category'			=> 'hct-theme',
 		'icon'				=> 'slides',
 		'mode'				=> 'auto',
 		'keywords'			=> array( 'carousel', 'marquee', 'slider', 'gallery', 'hct-theme-blocks' ),
