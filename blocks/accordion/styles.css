@@ -43,6 +43,10 @@
 	outline: none;
 }
 
+.accordion-title span {
+    width: 100%;
+}
+
 .hidden.accordion-panel {
 	opacity: 0;
     height: 0;

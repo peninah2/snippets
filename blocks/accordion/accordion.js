@@ -22,8 +22,8 @@ jQuery(document).ready(function($) {
       
       // Construct the button string with the attributes we need
       $this_button = '<button class="flexbox justify-content-space-between align-items-center" data-id="' + $this_id + '" id="accordion-button-' + $this_id + '" '
-         + ' aria-controls="accordion-panel-'+ $this_id +'" aria-expanded="false">'
-         + $this_text + '</button>';
+         + ' aria-controls="accordion-panel-'+ $this_id +'" aria-expanded="false"><span>'
+         + $this_text + '</span></button>';
 
 
       // Add the button string into the heading

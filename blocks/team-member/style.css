@@ -3,6 +3,11 @@
 	display: none;
 }
 
+.team-member {
+	max-width: 300px;
+    margin: auto auto 25px;
+}
+
 /** * Featherlight - ultra slim jQuery lightbox * Version 1.7.14 - http://noelboss.github.io/featherlight/ * * Copyright 2019, Noël Raoul Bossart (http://www.noelboss.com) * MIT Licensed. **/
  html.with-featherlight{
     overflow:hidden
@@ -93,6 +98,7 @@
         margin-left:0;
         margin-right:0;
         max-height:98%;
+        max-width:97%;
         padding:10px 10px 0;
         border-bottom:10px solid transparent
     }
