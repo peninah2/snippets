@@ -30,7 +30,7 @@ function hct_load_gmaps() {
 	if ( has_block( 'acf/map' ) ) { 
 		
 		wp_enqueue_script('gmaps', get_stylesheet_directory_uri() . '/js/gmaps.js', array( 'jquery' ), '', false);
-		wp_enqueue_script( 'google-api', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyDOeHCy2QmCDxsiCl5TkFV-ZtL8x6MO5lM', null, null, true);
+		wp_enqueue_script( 'google-api', 'https://maps.googleapis.com/maps/api/js?key=XXXXXXXXXXXXXXX', null, null, true);
 
 	}
 	
