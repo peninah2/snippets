@@ -12,6 +12,19 @@
 	));
 	
 	
+	
+	acf_register_block_type( array(
+		'name'				=> 'rotating-testimonials',
+		'title'				=> __( 'Testimonials', 'hct-theme-blocks' ),
+		'render_template'	=> 'blocks/block-rotating-testimonials.php',
+		'category'			=> 'formatting',
+		'icon'				=> 'format-quote',
+		'mode'				=> 'auto',
+		'keywords'			=> array( 'testimonials', 'rotating', 'slider', 'theme' ),
+	));
+	
+	
+	
 /*
  * Only load Swiper scripts if slider block is present
  */
@@ -95,6 +108,45 @@ function hct_slider_config() {
 
  */
  
+
+// Load Swiper configuration for testimonials
+add_action( 'wp_footer', 'hct_slider_config_testimonials', 50 );
+function hct_slider_config_testimonials() {
+	
+	if ( has_block( 'acf/rotating-testimonials' ) ) { 
+	?>
+	
+	<script type='text/javascript'>
+		jQuery(function ($) {
+		$(document).ready(function(){
+			
+			var testimonials = new Swiper('.testimonials', {
+				  
+				loop: true,
+				
+				slidesPerView: 1,
+				speed: 800,
+				
+				initialSlide: 1,
+				  
+				  
+				pagination: {
+					el: '.swiper-pagination',
+				  },
+				  
+			});		
+			
+		});
+		
+	});	
+	
+
+	</script>
+
+	<?php
+	}
+}	
+ 
  
  
 // Enqueue Featherlight to gallery blocks (scripts enqueued in plugin)
@@ -130,3 +182,14 @@ function hct_featherlight_enqueue_script() {
 
 	}
 }	
+
+add_action( 'wp_enqueue_scripts', 'hct_featherlight_script' );
+function hct_featherlight_script() {
+	
+	if ( has_block( 'acf/gallery' ) ) {
+		wp_enqueue_script( 'featherlight-js', get_stylesheet_directory_uri() . '/js/featherlight.js', true ); 
+		wp_enqueue_script( 'featherlight-gallery-js', get_stylesheet_directory_uri() . '/js/featherlight.gallery.js', true ); 
+		wp_enqueue_style( 'featherlight-css', get_stylesheet_directory_uri() . '/js/featherlight.css', true ); 
+		wp_enqueue_style( 'featherlight-gallery-css', get_stylesheet_directory_uri() . '/js/featherlight.gallery.css', true ); 
+	}
+}

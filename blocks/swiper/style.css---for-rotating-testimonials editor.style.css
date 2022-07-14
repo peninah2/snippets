@@ -1,0 +1,5 @@
+
+/* Rotating testimonials */
+.testimonials .swiper-slide:not(:first-of-type) {
+	display: none;
+}

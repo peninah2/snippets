@@ -1,0 +1,16 @@
+In order to set up the custom-colored Google Map, I will need you to create a Google API key.
+
+Here's how that's done:
+
+Pick a Google/gmail account you are comfortable using for this purpose. 
+Login and follow these directions to set up a project and enable billing. (You will only be billed if the project exceeds its free quota.) 
+Directions for setting up an API key are here. You will need to enable the following: Maps JavaScript API, Geocoding API and Places API.
+
+I can't do steps 1 & 2, but I'm happy to pick up #3 if you'd prefer! Please call me at 216-282-6662 and leave a message with the Gmail login.
+
+Billing: https://developers.google.com/maps/documentation/javascript/cloud-setup
+api: https://developers.google.com/maps/documentation/javascript/get-api-key
+
+
+
+REPLACE THEME NAME IN gmaps.js
