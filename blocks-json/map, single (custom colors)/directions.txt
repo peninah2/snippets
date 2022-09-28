@@ -1,0 +1,6 @@
+1. Have client set up GM according to email-text.txt
+2. Add acf-block-setup and block. 
+3. Update marker.svg color
+4. Update marker path in gmaps.js
+5. Grab a color scheme from snazzymaps.com and replace in gmaps.js
+6. Upload gmaps.js to /js/

@@ -1,0 +1,30 @@
+{
+    "name": "read-more",
+    "title": "Read More/Less",
+    "description": "",
+	"style": "",
+    "script": "block-read-more",
+    "category": "hct-theme",
+    "icon": "insert",
+    "apiVersion": 2,
+    "keywords": [],
+    "acf": {
+        "mode": "auto",
+		"renderTemplate": "render.php"
+    },
+    "styles": [],
+    "supports": {
+        "align": false,
+        "anchor": false,
+        "alignContent": false,
+        "color": {
+            "text": false,
+            "background": false,
+            "link": false
+        },
+        "alignText": false,
+        "fullHeight": false
+    },
+    "attributes": {
+    }
+}

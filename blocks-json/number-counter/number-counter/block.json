@@ -1,0 +1,30 @@
+{
+    "name": "number-counter",
+    "title": "Number Counter",
+    "description": "Rapidly scrolling numbers",
+	"style": "",
+    "script": "block-number-counter",
+    "category": "hct-theme",
+    "icon": "editor-ol-rtl",
+    "apiVersion": 2,
+    "keywords": [],
+    "acf": {
+        "mode": "auto",
+		"renderTemplate": "render.php"
+    },
+    "styles": [],
+    "supports": {
+        "align": false,
+        "anchor": false,
+        "alignContent": false,
+        "color": {
+            "text": false,
+            "background": false,
+            "link": false
+        },
+        "alignText": false,
+        "fullHeight": false
+    },
+    "attributes": {
+    }
+}

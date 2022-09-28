@@ -1,0 +1,30 @@
+{
+    "name": "accordion-block",
+    "title": "Accordion",
+    "description": "",
+	"style": "",
+    "script": "block-accordion",
+    "category": "hct-theme",
+    "icon": "list-view",
+    "apiVersion": 2,
+    "keywords": [],
+    "acf": {
+        "mode": "auto",
+		"renderTemplate": "render.php"
+    },
+    "styles": [],
+    "supports": {
+        "align": false,
+        "anchor": false,
+        "alignContent": false,
+        "color": {
+            "text": false,
+            "background": false,
+            "link": false
+        },
+        "alignText": false,
+        "fullHeight": false
+    },
+    "attributes": {
+    }
+}

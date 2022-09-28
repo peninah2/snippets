@@ -1,0 +1,30 @@
+{
+    "name": "map",
+    "title": "Map",
+    "description": "",
+	"style": "",
+    "script": "block-gmaps",
+    "category": "hct-theme",
+    "icon": "location-alt",
+    "apiVersion": 2,
+    "keywords": [],
+    "acf": {
+        "mode": "edit",
+		"renderTemplate": "render.php"
+    },
+    "styles": [],
+    "supports": {
+        "align": false,
+        "anchor": false,
+        "alignContent": false,
+        "color": {
+            "text": false,
+            "background": false,
+            "link": false
+        },
+        "alignText": false,
+        "fullHeight": false
+    },
+    "attributes": {
+    }
+}

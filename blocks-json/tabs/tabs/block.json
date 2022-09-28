@@ -1,0 +1,30 @@
+{
+    "name": "tabs",
+    "title": "Tabs",
+    "description": "",
+	"style": "",
+    "script": "block-tabs",
+    "category": "hct-theme",
+    "icon": "table-row-after",
+    "apiVersion": 2,
+    "keywords": [],
+    "acf": {
+        "mode": "auto",
+		"renderTemplate": "render.php"
+    },
+    "styles": [],
+    "supports": {
+        "align": false,
+        "anchor": false,
+        "alignContent": false,
+        "color": {
+            "text": false,
+            "background": false,
+            "link": false
+        },
+        "alignText": false,
+        "fullHeight": false
+    },
+    "attributes": {
+    }
+}

@@ -1,0 +1,9 @@
+/* Google Maps */
+.acf-map {
+    width: 100%;
+    height: 500px;
+}
+
+.acf-map img {
+   max-width: inherit !important;
+}

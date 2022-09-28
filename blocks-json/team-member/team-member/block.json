@@ -1,0 +1,30 @@
+{
+    "name": "team-member",
+    "title": "Team Member",
+    "description": "",
+	"style": "",
+    "script": "featherlight",
+    "category": "hct-theme",
+    "icon": "admin-users",
+    "apiVersion": 2,
+    "keywords": [],
+    "acf": {
+        "mode": "auto",
+		"renderTemplate": "render.php"
+    },
+    "styles": [],
+    "supports": {
+        "align": false,
+        "anchor": false,
+        "alignContent": false,
+        "color": {
+            "text": false,
+            "background": false,
+            "link": false
+        },
+        "alignText": false,
+        "fullHeight": false
+    },
+    "attributes": {
+    }
+}
