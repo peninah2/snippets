@@ -31,6 +31,9 @@
 .icon-linkedin-square:before {
   content: "\f08c";
 }
+.icon-facebook-official:before {
+  content: "\f230";
+}
 .icon-youtube-play:before {
   content: "\e900";
 }
@@ -48,7 +51,4 @@
 }
 .icon-facebook-f:before {
   content: "\e904";
-}
-.icon-facebook-official:before {
-  content: "\f230";
 }

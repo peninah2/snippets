@@ -1,13 +1,13 @@
 [
     {
-        "key": "group_62433c658596f",
-        "title": "Social links",
+        "key": "group_63347114414ce",
+        "title": "Social Menu",
         "fields": [
             {
-                "key": "field_62433c6c11b09",
+                "key": "field_6334712c570c4",
                 "label": "Facebook",
                 "name": "facebook",
-                "type": "text",
+                "type": "url",
                 "instructions": "",
                 "required": 0,
                 "conditional_logic": 0,
@@ -17,16 +17,13 @@
                     "id": ""
                 },
                 "default_value": "",
-                "placeholder": "",
-                "prepend": "",
-                "append": "",
-                "maxlength": ""
+                "placeholder": ""
             },
             {
-                "key": "field_62433c7c11b0a",
+                "key": "field_6334713d570c5",
                 "label": "Twitter",
                 "name": "twitter",
-                "type": "text",
+                "type": "url",
                 "instructions": "",
                 "required": 0,
                 "conditional_logic": 0,
@@ -36,16 +33,13 @@
                     "id": ""
                 },
                 "default_value": "",
-                "placeholder": "",
-                "prepend": "",
-                "append": "",
-                "maxlength": ""
+                "placeholder": ""
             },
             {
-                "key": "field_62433c8111b0b",
+                "key": "field_63347150570c7",
                 "label": "Instagram",
                 "name": "instagram",
-                "type": "text",
+                "type": "url",
                 "instructions": "",
                 "required": 0,
                 "conditional_logic": 0,
@@ -55,16 +49,13 @@
                     "id": ""
                 },
                 "default_value": "",
-                "placeholder": "",
-                "prepend": "",
-                "append": "",
-                "maxlength": ""
+                "placeholder": ""
             },
             {
-                "key": "field_62433c8811b0c",
+                "key": "field_63347143570c6",
                 "label": "YouTube",
                 "name": "youtube",
-                "type": "text",
+                "type": "url",
                 "instructions": "",
                 "required": 0,
                 "conditional_logic": 0,
@@ -74,35 +65,13 @@
                     "id": ""
                 },
                 "default_value": "",
-                "placeholder": "",
-                "prepend": "",
-                "append": "",
-                "maxlength": ""
+                "placeholder": ""
             },
             {
-                "key": "field_62433c9011b0d",
-                "label": "Vimeo",
-                "name": "vimeo",
-                "type": "text",
-                "instructions": "",
-                "required": 0,
-                "conditional_logic": 0,
-                "wrapper": {
-                    "width": "",
-                    "class": "",
-                    "id": ""
-                },
-                "default_value": "",
-                "placeholder": "",
-                "prepend": "",
-                "append": "",
-                "maxlength": ""
-            },
-            {
-                "key": "field_62433c9411b0e",
-                "label": "LinkedIn",
+                "key": "field_63347113570c3",
+                "label": "Linkedin",
                 "name": "linkedin",
-                "type": "text",
+                "type": "url",
                 "instructions": "",
                 "required": 0,
                 "conditional_logic": 0,
@@ -112,10 +81,7 @@
                     "id": ""
                 },
                 "default_value": "",
-                "placeholder": "",
-                "prepend": "",
-                "append": "",
-                "maxlength": ""
+                "placeholder": ""
             }
         ],
         "location": [
@@ -123,13 +89,13 @@
                 {
                     "param": "options_page",
                     "operator": "==",
-                    "value": "theme-settings"
+                    "value": "social-menu"
                 }
             ]
         ],
-        "menu_order": 2,
+        "menu_order": 0,
         "position": "normal",
-        "style": "seamless",
+        "style": "default",
         "label_placement": "top",
         "instruction_placement": "label",
         "hide_on_screen": "",
