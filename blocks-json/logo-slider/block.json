@@ -1,13 +1,13 @@
 {
-    "name": "read-more",
-    "title": "Read more - Read less",
-    "description": "Read more/less",
-	"style": "",
-    "script": "read-more",
+    "name": "logo-slider",
+    "title": "Logo Slider",
+    "description": "Scrolling logos",
+	"style": "swiper-styles",
+    "script": [ "swiper-js", "logo-slider" ],
     "category": "hct-theme",
-    "icon": "plus",
+    "icon": "images-alt",
     "apiVersion": 2,
-    "keywords": [ "read more", "expand" ],
+    "keywords": [ "logos", "carousel", "slider" ],
     "acf": {
         "mode": "preview",
 		"renderTemplate": "render.php"

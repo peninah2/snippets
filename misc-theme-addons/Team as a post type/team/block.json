@@ -1,13 +1,13 @@
 {
-    "name": "read-more",
-    "title": "Read more - Read less",
-    "description": "Read more/less",
-	"style": "",
-    "script": "read-more",
+    "name": "team",
+    "title": "Team",
+    "description": "Team members",
+	"style": "featherlight",
+    "script": "featherlight",
     "category": "hct-theme",
-    "icon": "plus",
+    "icon": "businessperson",
     "apiVersion": 2,
-    "keywords": [ "read more", "expand" ],
+    "keywords": [ "bio", "team", "staff", "member" ],
     "acf": {
         "mode": "preview",
 		"renderTemplate": "render.php"
