@@ -1,9 +1,9 @@
 {
-    "name": "logo-slider",
-    "title": "Logo Slider",
+    "name": "logo-carousel",
+    "title": "Logo Carousel",
     "description": "Scrolling logos",
-	"style": "swiper-styles",
-    "script": [ "swiper-js", "logo-slider" ],
+	"style": [ "swiper-styles", "file:./logo-carousel.css" ],
+    "script": [ "swiper-js", "logo-carousel" ],
     "category": "hct-theme",
     "icon": "images-alt",
     "apiVersion": 2,

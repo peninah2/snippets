@@ -1,0 +1,11 @@
+/* Logo carousel */
+.logo-carousel .swiper-wrapper {
+  -webkit-transition-timing-function:linear!important; 
+  -o-transition-timing-function:linear!important;
+  transition-timing-function:linear!important; 
+}
+
+
+.logo-carousel img {
+    width: 150px;
+}

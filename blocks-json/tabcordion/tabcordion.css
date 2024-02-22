@@ -1,0 +1,229 @@
+/* .tabcordion { */
+  /* margin: 0 auto 4rem auto; */
+/* } */
+
+/* .tabcordion.has-tabs .tabcordion--tabs { */
+  /* opacity: 1; */
+  /* height: auto; */
+  /* visibility: visible; */
+/* } */
+
+/* .tabcordion.has-tabs .tabcordion--entry { */
+  /* min-height: 0; */
+/* } */
+
+/* .tabcordion.has-tabs .tabcordion--entry::before { */
+  /* display: none; */
+/* } */
+
+/* .tabcordion.has-tabs .tabcordion--entry.is-active .tabcordion--entry-content { */
+  /* opacity: 1; */
+  /* transition: opacity 400ms ease-in-out; */
+/* } */
+
+/* .tabcordion.has-tabs .tabcordion--entry .tabcordion--entry-content { */
+  /* opacity: 0; */
+  /* transition: opacity 400ms ease-in-out; */
+/* } */
+
+/* .tabcordion--tabs { */
+  /* opacity: 0; */
+  /* height: 0; */
+  /* visibility: hidden; */
+  /* display: flex; */
+  /* flex-flow: wrap; */
+  /* margin: 0; */
+  /* list-style: none; */
+  /* padding: 0; */
+/* } */
+
+/* .tabcordion-tabs-wrapper { */
+	/* padding: 0 1rem; */
+/* } */
+
+/* .tabcordion-tabs-wrapper .tab { */
+	/* display: block; */
+	/* cursor: pointer; */
+	/* background: transparent; */
+	/* color: #000 !important; */
+/* } */
+
+/* .tabs { */
+	/* border: 1px solid #000; */
+/* } */
+
+/* .tabcordion-tabs-wrapper .tab:not(:last-of-type) { */
+	/* border-right: 1px solid #000; */
+/* } */
+
+/* .tabcordion-tabs-wrapper .tab:hover,  */
+/* .tabcordion-tabs-wrapper .tab:focus, */
+/* .tabcordion-tabs-wrapper .tab.is-active, */
+/* .tabcordion-tabs-wrapper .tab.selected, */
+/* .tabcordion--entry:hover::before, .tabcordion--entry:focus::before, */
+/* .tabcordion--entry.is-active::before, */
+/* .tabcordion--entry.is-active:hover::before, .tabcordion--entry.is-active:focus::before { */
+	/* background: #444; */
+	/* color: #fff !important; */
+/* } */
+
+/* .tabcordion--entry { */
+  /* overflow: hidden; */
+/* } */
+
+/* .tabcordion--entry::before { */
+	/* position: relative; */
+	/* content: attr(data-title); */
+	/* cursor: pointer; */
+	/* z-index: 1; */
+	/* color: #000; */
+	/* padding: 0.5rem 1rem; */
+	/* display: block; */
+	/* font-weight: bold; */
+	/* letter-spacing: 1px; */
+	/* text-transform: uppercase; */
+	/* text-align: center; */
+	/* border: 1px solid #000; */
+	/* border-bottom: 0; */
+/* } */
+
+/* .tabcordion--entry:hover, .tabcordion--entry:focus { */
+	/* outline: none; */
+/* } */
+
+/* .tabcordion--entry.is-active .tabcordion--entry-content { */
+	/* margin-top: 0; */
+	/* height: auto; */
+	/* opacity: 1; */
+	/* transition: margin 400ms ease-out -100ms; */
+/* } */
+
+/* .tabcordion--entry-container { */
+	/* overflow: hidden; */
+/* } */
+
+/* .tabcordion--entry-content { */
+	/* position: relative; */
+	/* margin-top: -100%; */
+	/* height: 0; */
+	/* opacity: 0; */
+	/* transition: margin 500ms ease-in; */
+	/* padding: 1rem; */
+/* } */
+
+
+.tabcordion {
+  background: #fff;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
+  max-width: 680px;
+  padding: 1rem;
+  margin: 1rem auto 4rem auto;
+  border-radius: 3px;
+}
+.tabcordion.has-tabs .tabcordion--tabs {
+  opacity: 1;
+  height: auto;
+  visibility: visible;
+}
+.tabcordion.has-tabs .tabcordion--entry {
+  min-height: 0;
+}
+.tabcordion.has-tabs .tabcordion--entry::before {
+  display: none;
+}
+.tabcordion.has-tabs .tabcordion--entry.is-active .tabcordion--entry-content {
+  opacity: 1;
+  transition: opacity 400ms ease-in-out;
+}
+.tabcordion.has-tabs .tabcordion--entry .tabcordion--entry-content {
+  opacity: 0;
+  transition: opacity 400ms ease-in-out;
+}
+
+.tabcordion--tabs {
+  opacity: 0;
+  height: 0;
+  visibility: hidden;
+  display: flex;
+  flex-flow: wrap;
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+.tabcordion--tabs .tab {
+  display: block;
+  background: #444;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  margin: 0 0 1px 0;
+  border: none;
+  border-right: 1px solid #fff;
+  cursor: pointer;
+}
+.tabcordion--tabs .tab:hover, .tabcordion--tabs .tab:focus {
+  background: #535353;
+  outline: none;
+}
+.tabcordion--tabs .tab.is-active {
+  background: #3bacff;
+}
+.tabcordion--tabs .tab.is-active:hover, .tabcordion--tabs .tab.is-active:focus {
+  background: #1c9fff;
+}
+
+.tabcordion--entry {
+  overflow: hidden;
+}
+.tabcordion--entry::before {
+  position: relative;
+  content: attr(data-title);
+  cursor: pointer;
+  z-index: 1;
+  background: #444;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  display: block;
+  border-radius: 3px;
+}
+.tabcordion--entry:hover, .tabcordion--entry:focus {
+  outline: none;
+}
+.tabcordion--entry:hover::before, .tabcordion--entry:focus::before {
+  background: #535353;
+}
+.tabcordion--entry.is-active .tabcordion--entry-content {
+  margin-top: 0;
+  height: auto;
+  opacity: 1;
+  transition: margin 400ms ease-out -100ms;
+}
+.tabcordion--entry.is-active::before {
+  background: #3bacff;
+}
+.tabcordion--entry.is-active:hover::before, .tabcordion--entry.is-active:focus::before {
+  background: #1c9fff;
+}
+
+.tabcordion--entry-container {
+  overflow: hidden;
+  margin-bottom: 1px;
+}
+
+.tabcordion--entry-content {
+  position: relative;
+  margin-top: -100%;
+  height: 0;
+  opacity: 0;
+  transition: margin 500ms ease-in;
+  padding: 1rem;
+}
+.tabcordion--entry-content a.more {
+  color: #444;
+}
+.tabcordion--entry-content a.more:hover {
+  color: #3bacff;
+}

@@ -1,21 +1,22 @@
 {
-    "name": "accordion-block",
-    "title": "Accordion",
-    "description": "",
-	"style": "file:./accordion.css",
-    "script": "block-accordion",
+    "name": "tabcordion",
+    "title": "Tabcordion",
+    "description": "Tabs on desktop, accordion on mobile",
+	"style": "file:./tabcordion.css",
+    "script": [ "resizeObserver", "tabcordion" ],
     "category": "hct-theme",
-    "icon": "list-view",
+    "icon": "index-card",
     "apiVersion": 2,
-    "keywords": [],
+    "keywords": [ "tabs" ],
     "acf": {
-        "mode": "auto",
+        "mode": "preview",
 		"renderTemplate": "render.php"
     },
     "styles": [],
     "supports": {
         "align": false,
         "anchor": false,
+        "jsx": false,
         "alignContent": false,
         "color": {
             "text": false,

@@ -8,7 +8,8 @@
 
 wp_enqueue_script('block-gmaps', get_stylesheet_directory_uri() . '/blocks/map/gmaps.js', array( 'jquery' ), '', false);
 wp_enqueue_script( 'google-api', 'https://maps.googleapis.com/maps/api/js?key=XXXXXXXXXXXXXXX', null, null, true);
-register_block_type( get_stylesheet_directory() . '/blocks/map/block.json' );
+
+register_block_type( get_stylesheet_directory() . '/blocks/map' );
 	
 // Register Google API key
 add_filter('acf/fields/google_map/api', 'hct_acf_google_map_api');
