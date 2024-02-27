@@ -46,8 +46,8 @@ function hct_featherlight_swiper_scripts() {
 
 
 // Load Swiper configuration for slider
-add_action( 'wp_footer', 'hct_slider_config', 50 );
-function hct_slider_config() {
+add_action( 'wp_footer', 'hct_gallery_config', 50 );
+function hct_gallery_config() {
 	
 	if ( has_block( 'acf/gallery' ) ) { 
 	?>
@@ -68,7 +68,7 @@ function hct_slider_config() {
 				  
 				loop: true,
 				
-				slidesPerView: 1,
+				slidesPerView: 4,
 				speed: 800,
 				
 				initialSlide: 0,
