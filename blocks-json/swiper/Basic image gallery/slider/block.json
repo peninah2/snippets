@@ -1,21 +1,21 @@
 {
-    "name": "accordion",
-    "title": "Accordion",
-    "description": "",
-	"style": "file:./styles.css",
-    "script": "accordion-js",
+    "name": "slider",
+    "title": "Slider",
+    "description": "Gallery of images",
+	"style": [ "swiper-styles", "file:./styles.css" ],
     "category": "hct-theme",
-    "icon": "list-view",
+    "icon": "images-alt",
     "apiVersion": 2,
-    "keywords": [],
+    "keywords": [ "gallery", "slider" ],
     "acf": {
-        "mode": "auto",
+        "mode": "preview",
 		"renderTemplate": "render.php"
     },
     "styles": [],
     "supports": {
         "align": false,
         "anchor": false,
+        "jsx": false,
         "alignContent": false,
         "color": {
             "text": false,

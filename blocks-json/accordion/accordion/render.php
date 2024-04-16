@@ -8,8 +8,8 @@
 **/
 
 $classes = ['accordion-container'];
-if( !empty( $block['align'] ) )
-    $classes[] = 'align' . $block['align'];
+if( !empty( $block['className'] ) )
+    $classes = array_merge( $classes, explode( ' ', $block['className'] ) ); 
 
 $rows = get_field('accordion');
 if( $rows ) {
