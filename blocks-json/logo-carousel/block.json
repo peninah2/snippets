@@ -2,7 +2,7 @@
     "name": "logo-carousel",
     "title": "Logo Carousel",
     "description": "Scrolling logos",
-	"style": [ "swiper-styles", "file:./logo-carousel.css" ],
+	"style": [ "swiper-styles", "file:./styles.css" ],
     "script": [ "swiper-js", "logo-carousel" ],
     "category": "hct-theme",
     "icon": "images-alt",

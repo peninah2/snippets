@@ -15,10 +15,10 @@ if( $images ): ?>
 	
 	foreach( $images as $image_id ) {
 	$i++; 
-	if( $i > 3 ):
+	if( $i > 6 ):
 			break;
 	endif; ?>
-		<div style="width: 33%; padding: 0 30px; float: left;" class="swiper-slide">
+		<div style="width: 15%; padding: 0 30px; float: left;" class="swiper-slide">
 			<?php echo wp_get_attachment_image( $image_id, $size ); ?>
 		</div>
 	<?php }
@@ -27,7 +27,7 @@ if( $images ): ?>
 }
 else { ?>
 
-	<div class="logo-slider swiper">
+	<div class="logo-carousel swiper">
 		<div class="swiper-wrapper">
 			<?php foreach( $images as $image_id ): ?>
 				<div class="swiper-slide slide">

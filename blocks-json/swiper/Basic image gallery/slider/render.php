@@ -10,7 +10,7 @@ if( !empty( $block['className'] ) )
     $classes = array_merge( $classes, explode( ' ', $block['className'] ) ); 
 
 
-$images = get_field('logos');
+$images = get_field('images');
 $size = 'full';
 if( $images ): ?>
 

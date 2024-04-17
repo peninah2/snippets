@@ -1,7 +1,7 @@
 jQuery(function ($) {
 	$(document).ready(function(){
 		
-		var swiper = new Swiper('.logo-slider', {
+		var swiper = new Swiper('.logo-carousel', {
 			  
 			loop: true,
 			navigation: false,
@@ -12,20 +12,19 @@ jQuery(function ($) {
 			
 			freeMode: true,
 			slidesPerView: 1,
+		    slidesPerGroup: 1,			
+			spaceBetween: 30,
 			speed: 5000,
 			
 			initialSlide: 3,
 			
 			breakpoints: {
 				600: {
-				  slidesPerView: 2,
-				  spaceBetween: 30,
+				  slidesPerView: 4,
 				},
 				
 				1280: {
-				  slidesPerView: 4,
-				  spaceBetween: 30,
-				  slidesPerGroup: 1,
+				  slidesPerView: 6,
 				},
 			},
 			  
