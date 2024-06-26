@@ -2,7 +2,7 @@
     "name": "tabs",
     "title": "Tabs",
     "description": "",
-	"style": "",
+	"style": "file:./styles.css",
     "script": "block-tabs",
     "category": "hct-theme",
     "icon": "table-row-after",

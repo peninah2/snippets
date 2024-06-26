@@ -2,7 +2,7 @@
     "name": "read-more",
     "title": "Read more - Read less",
     "description": "Read more/less",
-	"style": "",
+	"style": "file:./styles.css",
     "script": "read-more",
     "category": "hct-theme",
     "icon": "plus",
